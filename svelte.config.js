@@ -8,6 +8,10 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		// alias is not just for types here, it must only appear in tsconfig
+		// alias: {
+		// 	'$telefunc': 'src/telefunc/*'
+		// },
 		adapter: adapter()
 	}
 };
