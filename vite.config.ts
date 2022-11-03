@@ -3,7 +3,12 @@ import { telefunc } from 'telefunc/vite'
 import type { UserConfig } from 'vite';
 
 const config: UserConfig = {
-	plugins: [telefunc(), sveltekit()]
+  plugins: [
+    telefunc({
+      disableNamingConvention: true,
+    }),
+    sveltekit()
+  ]
 };
 
 export default config;
