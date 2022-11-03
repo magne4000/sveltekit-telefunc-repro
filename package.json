@@ -21,7 +21,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@brillout/json-s": "^0.5.1",
-		"telefunc": "^0.1.25"
+		"telefunc": "^0.1.31"
 	}
 }
