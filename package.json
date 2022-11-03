@@ -21,6 +21,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"telefunc": "^0.1.31"
+		"telefunc": "^0.1.32"
 	}
 }
