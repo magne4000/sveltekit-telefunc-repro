@@ -6,13 +6,13 @@ specifiers:
   svelte: ^3.44.0
   svelte-check: ^2.7.1
   svelte-preprocess: ^4.10.6
-  telefunc: ^0.1.31
+  telefunc: ^0.1.32
   tslib: ^2.3.1
   typescript: ^4.7.4
   vite: ^3.1.0
 
 dependencies:
-  telefunc: 0.1.31
+  telefunc: 0.1.32
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.86
@@ -30,8 +30,8 @@ packages:
     resolution: {integrity: sha512-UYxk0fxswiI8C16Mh/wBP5EfD84BlwMhmHYPYVs3SLvkx2dNCRV4VwXbR8ZLhcJ/lU/AdyV6SxJzJl7krY70Sg==}
     dev: false
 
-  /@brillout/json-serializer/0.5.2:
-    resolution: {integrity: sha512-Jeq5BqlFKUoOdPQL3W4P8emlkkmtyfD72Q1H6K8JF/1b0F3TrdiY532C9+T+sk6oMNzsQW7DfYDW/NspEgSSHQ==}
+  /@brillout/json-serializer/0.5.3:
+    resolution: {integrity: sha512-IxlOMD5gOM0WfFGdeR98jHKiC82Ad1tUnSjvLS5jnRkfMEKBI+YzHA32Umw8W3Ccp5N4fNEX229BW6RaRpxRWQ==}
     dev: false
 
   /@brillout/vite-plugin-import-build/0.1.0:
@@ -1541,8 +1541,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /telefunc/0.1.31:
-    resolution: {integrity: sha512-pKItJC3UBDZrQ9rFD69aODFFKhkPDHn/o0NXCLe4fAMAhs/PXvihxE2MVW3h4l0WuJriQfS4Zr5ge46C5IGrYQ==}
+  /telefunc/0.1.32:
+    resolution: {integrity: sha512-KUXc+O3nqmGld3MlUV7X8xD9fng0ei/MuDnj7kXy6onYoyeqckx4GK+sxf2cANYG0w4AMT/Sgbn5j39QbKJGwQ==}
     engines: {node: '>=12.19.0'}
     peerDependencies:
       react: ^18.0.0
@@ -1554,7 +1554,7 @@ packages:
         optional: true
     dependencies:
       '@brillout/import': 0.1.2
-      '@brillout/json-serializer': 0.5.2
+      '@brillout/json-serializer': 0.5.3
       '@brillout/vite-plugin-import-build': 0.1.0
       es-module-lexer: 0.7.1
       picocolors: 1.0.0
